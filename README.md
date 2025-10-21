@@ -67,7 +67,7 @@ def hexadecimal_to_decimal(hex_str):
     
     for digit in reversed(hex_str.upper()): # Convert to upper for consistent mapping
         decimal_num += hex_map[digit] * (16 ** power)
-        power = 1
+        power += 1
     return decimal_num
 
 # Menu Driven Command Line Interface
