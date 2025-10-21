@@ -7,7 +7,7 @@ def decimal_to_binary(decimal_num):
     """
     if not isinstance(decimal_num, int):
         return "Invalid input: Please enter an integer."
-    if decimal_num = 0:
+    if decimal_num == 0:
         return "0"
     
     binary_str = ""
