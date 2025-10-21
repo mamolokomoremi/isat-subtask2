@@ -121,7 +121,7 @@ def main():
         elif choice == '6':
             print("Exiting the program.")
             break
-        
+        else:
             print("Invalid choice. Please enter a number between 1 and 6.")
 
 if __name__ == "__main__":
